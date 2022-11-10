@@ -1,0 +1,25 @@
+body {
+    color: white;
+    background-color: #333;
+}
+
+.dual-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 700px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.time-sets {
+    display: grid;
+    grid-template-columns: 75px 50px 150px 50px 75px;
+    justify-items: center;
+    align-items: center;
+}
+
+.space-out {
+    margin-right: 5px;
+    margin-left: 5px;
+}
